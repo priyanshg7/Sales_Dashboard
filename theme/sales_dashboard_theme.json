@@ -1,0 +1,87 @@
+{
+  "name": "Enterprise Executive Indigo",
+  "dataColors": [
+    "#4361EE",
+    "#3A0CA3",
+    "#4CC9F0",
+    "#F72585",
+    "#7209B7",
+    "#06D6A0",
+    "#FFD166",
+    "#EF476F",
+    "#118AB2",
+    "#073B4C"
+  ],
+  "background": "#F8F9FA",
+  "foreground": "#1E293B",
+  "tableAccent": "#4361EE",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E2E8F0" } },
+            "radius": 8
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#000000" } },
+            "transparency": 92,
+            "shadowBlur": 10,
+            "shadowSpread": 0,
+            "angle": 90,
+            "shadowDistance": 4
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#0F172A" } },
+            "fontFamily": "Segoe UI",
+            "fontSize": 12,
+            "bold": true,
+            "alignment": "Left"
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#4361EE" } },
+            "fontSize": 24,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#64748B" } },
+            "fontSize": 10,
+            "fontFamily": "Segoe UI"
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F1F5F9" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}

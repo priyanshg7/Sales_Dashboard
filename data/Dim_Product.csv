@@ -1,0 +1,36 @@
+ProductKey,ProductName,Category,SubCategory,UnitCost,UnitPrice,TargetMarginPct
+PROD-101,iPhone 15 Pro,Technology,Phones,750,999,24.9
+PROD-102,Samsung Galaxy S24,Technology,Phones,620,899,31.0
+PROD-103,Google Pixel 8,Technology,Phones,450,699,35.6
+PROD-104,OnePlus 12,Technology,Phones,480,749,35.9
+PROD-105,MacBook Air M3,Technology,Laptops,820,1099,25.4
+PROD-106,Dell XPS 15,Technology,Laptops,950,1299,26.9
+PROD-107,Lenovo ThinkPad X1,Technology,Laptops,900,1249,27.9
+PROD-108,HP Spectre x360,Technology,Laptops,800,1149,30.4
+PROD-109,Logitech MX Master 3S,Technology,Accessories,55,99,44.4
+PROD-110,Apple Magic Keyboard,Technology,Accessories,60,119,49.6
+PROD-111,Sony WH-1000XM5,Technology,Accessories,190,349,45.6
+PROD-112,Dell 27-inch 4K Monitor,Technology,Accessories,220,399,44.9
+PROD-113,Herman Miller Aeron,Furniture,Chairs,650,1150,43.5
+PROD-114,Steelcase Gesture,Furniture,Chairs,580,980,40.8
+PROD-115,Ergonomic Mesh Chair,Furniture,Chairs,110,229,52.0
+PROD-116,Executive Leather Chair,Furniture,Chairs,180,349,48.4
+PROD-117,Autonomous Standing Desk,Furniture,Desks,280,499,43.9
+PROD-118,IKEA Bekant Desk,Furniture,Desks,140,279,49.8
+PROD-119,Solid Oak Executive Desk,Furniture,Desks,420,850,50.6
+PROD-120,Compact Writing Desk,Furniture,Desks,80,159,49.7
+PROD-121,5-Tier Industrial Bookshelf,Furniture,Bookcases,90,189,52.4
+PROD-122,Modern Glass Display Cabinet,Furniture,Bookcases,160,320,50.0
+PROD-123,Modular Cube Storage,Furniture,Bookcases,45,99,54.5
+PROD-124,Heavy Duty File Cabinet,Office Supplies,Storage,95,189,49.7
+PROD-125,Stackable Storage Bins (Set of 4),Office Supplies,Storage,25,49,49.0
+PROD-126,Desk Organizer Set,Office Supplies,Storage,12,28,57.1
+PROD-127,Premium Multipurpose Paper Ream,Office Supplies,Paper,4.5,9.99,55.0
+PROD-128,Recycled Cardstock 500 Sheets,Office Supplies,Paper,7.0,14.5,51.7
+PROD-129,Glossy Photo Paper,Office Supplies,Paper,6.0,13.99,57.1
+PROD-130,Heavy Duty 3-Ring Binder,Office Supplies,Binders,3.0,7.99,62.5
+PROD-131,Presentation Folder 25-Pack,Office Supplies,Binders,8.0,18.0,55.6
+PROD-132,Plastic Sheet Protectors 100-Pack,Office Supplies,Binders,5.0,11.5,56.5
+PROD-133,Fellowes Paper Shredder,Office Supplies,Appliances,65,129,49.6
+PROD-134,Compact Microwave Oven,Office Supplies,Appliances,55,119,53.8
+PROD-135,Keurig Commercial Coffee Maker,Office Supplies,Appliances,85,179,52.5

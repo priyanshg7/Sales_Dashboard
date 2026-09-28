@@ -1,0 +1,72 @@
+// =========================================================================================
+// DAX MEASURE LIBRARY 01: CORE BUSINESS KPIS & BASE MEASURES
+// =========================================================================================
+// Best Practice: Store all measures in a dedicated Measure Table (e.g., '_Measures')
+// =========================================================================================
+
+// 1. Total Sales (Revenue)
+Total Sales = 
+SUM(Fact_Sales[NetSales])
+
+// 2. Total Gross Sales
+Total Gross Sales = 
+SUM(Fact_Sales[GrossSales])
+
+// 3. Total Cost of Goods Sold (COGS)
+Total Cost = 
+SUM(Fact_Sales[TotalCost])
+
+// 4. Total Profit
+Total Profit = 
+SUM(Fact_Sales[Profit])
+
+// 5. Profit Margin Percentage
+Profit Margin % = 
+DIVIDE(
+    [Total Profit],
+    [Total Sales],
+    0
+)
+
+// 6. Total Quantity Sold
+Total Units Sold = 
+SUM(Fact_Sales[Quantity])
+
+// 7. Total Order Count (Distinct transactions)
+Total Orders = 
+DISTINCTCOUNT(Fact_Sales[OrderID])
+
+// 8. Total Customers Count
+Total Active Customers = 
+DISTINCTCOUNT(Fact_Sales[CustomerKey])
+
+// 9. Average Order Value (AOV)
+Average Order Value = 
+DIVIDE(
+    [Total Sales],
+    [Total Orders],
+    0
+)
+
+// 10. Total Discount Given
+Total Discount Amount = 
+SUM(Fact_Sales[DiscountAmount])
+
+// 11. Average Discount Rate %
+Avg Discount Rate % = 
+AVERAGE(Fact_Sales[DiscountRate])
+
+// 12. Return Rate %
+Total Returns = 
+SUM(Fact_Sales[ReturnFlag])
+
+Return Rate % = 
+DIVIDE(
+    [Total Returns],
+    [Total Orders],
+    0
+)
+
+// 13. Average Delivery Time (Days)
+Avg Shipping Days = 
+AVERAGE(Fact_Sales[ShippingDays])

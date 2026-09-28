@@ -1,0 +1,76 @@
+// =========================================================================================
+// DAX MEASURE LIBRARY 03: PRODUCT, REGIONAL & DYNAMIC RANKING MEASURES
+// =========================================================================================
+
+// 1. Product Sales Rank
+Product Sales Rank = 
+RANKX(
+    ALLSELECTED(Dim_Product[ProductName]),
+    [Total Sales],
+    ,
+    DESC,
+    Dense
+)
+
+// 2. Top 5 Products by Sales Filter (Used for visual-level filtering)
+Is Top 5 Product = 
+IF(
+    [Product Sales Rank] <= 5,
+    1,
+    0
+)
+
+// 3. Percentage Contribution to Total Category Sales
+Category Sales Share % = 
+DIVIDE(
+    [Total Sales],
+    CALCULATE([Total Sales], ALLSELECTED(Dim_Product[SubCategory])),
+    0
+)
+
+// 4. Percentage Contribution to Overall Business Revenue
+Total Business Share % = 
+DIVIDE(
+    [Total Sales],
+    CALCULATE([Total Sales], ALL(Fact_Sales)),
+    0
+)
+
+// 5. Regional Sales Target (Synthetic benchmark: 10% above prior year)
+Regional Sales Target = 
+IF(
+    ISBLANK([Sales PY]),
+    [Total Sales] * 1.05,
+    [Sales PY] * 1.10
+)
+
+// 6. Target Achievement %
+Target Achievement % = 
+DIVIDE(
+    [Total Sales],
+    [Regional Sales Target],
+    0
+)
+
+// 7. Dynamic KPI Status Indicator (Icons / Formatting)
+KPI Status Indicator = 
+SWITCH(
+    TRUE(),
+    [Profit Margin %] >= 0.25, "🟢 Exceeding Target",
+    [Profit Margin %] >= 0.15, "🟡 On Track",
+    "🔴 Attention Required"
+)
+
+// 8. Dynamic Metric Selector (For parameter switching in Power BI)
+// Requires a disconnected table: Metric_Parameter = {"Sales", "Profit", "Orders", "Margin"}
+Selected Metric Value = 
+VAR SelectedMetric = SELECTEDVALUE('Metric_Parameter'[Metric], "Sales")
+RETURN
+    SWITCH(
+        SelectedMetric,
+        "Sales", [Total Sales],
+        "Profit", [Total Profit],
+        "Orders", [Total Orders],
+        "Margin", [Profit Margin %],
+        [Total Sales]
+    )

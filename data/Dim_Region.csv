@@ -1,0 +1,8 @@
+RegionKey,Region,Country,RegionalManager,Market
+REG-EAST,East,United States,Sarah Jenkins,North America
+REG-WEST,West,United States,David Chen,North America
+REG-CENT,Central,United States,Michael Roberts,North America
+REG-SOUT,South,United States,Amanda Perez,North America
+REG-EMEA,EMEA,United Kingdom,Oliver Smith,Europe
+REG-APAC,APAC,Singapore,Li Wei,Asia Pacific
+REG-LATAM,LATAM,Brazil,Carlos Silva,Latin America

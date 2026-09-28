@@ -1,0 +1,86 @@
+// =========================================================================================
+// DAX MEASURE LIBRARY 02: TIME INTELLIGENCE & COMPARATIVE ANALYTICS
+// =========================================================================================
+// Prerequisites: Mark 'Dim_Date' as Date Table with 'FullDate' as the date column
+// =========================================================================================
+
+// 1. Sales Year-to-Date (YTD)
+Sales YTD = 
+TOTALYTD(
+    [Total Sales],
+    Dim_Date[FullDate]
+)
+
+// 2. Sales Previous Year (PY) / Same Period Last Year (SPLY)
+Sales PY = 
+CALCULATE(
+    [Total Sales],
+    SAMEPERIODLASTYEAR(Dim_Date[FullDate])
+)
+
+// 3. Year-over-Year (YoY) Sales Variance
+Sales YoY Variance = 
+[Total Sales] - [Sales PY]
+
+// 4. Year-over-Year (YoY) Sales Growth %
+Sales YoY Growth % = 
+DIVIDE(
+    [Sales YoY Variance],
+    [Sales PY],
+    0
+)
+
+// 5. Profit Year-to-Date (YTD)
+Profit YTD = 
+TOTALYTD(
+    [Total Profit],
+    Dim_Date[FullDate]
+)
+
+// 6. Profit Previous Year (PY)
+Profit PY = 
+CALCULATE(
+    [Total Profit],
+    SAMEPERIODLASTYEAR(Dim_Date[FullDate])
+)
+
+// 7. Year-over-Year (YoY) Profit Growth %
+Profit YoY Growth % = 
+DIVIDE(
+    [Total Profit] - [Profit PY],
+    [Profit PY],
+    0
+)
+
+// 8. Sales Month-over-Month (MoM) Growth %
+Sales Previous Month = 
+CALCULATE(
+    [Total Sales],
+    DATEADD(Dim_Date[FullDate], -1, MONTH)
+)
+
+Sales MoM Growth % = 
+DIVIDE(
+    [Total Sales] - [Sales Previous Month],
+    [Sales Previous Month],
+    0
+)
+
+// 9. Sales Quarter-to-Date (QTD)
+Sales QTD = 
+TOTALQTD(
+    [Total Sales],
+    Dim_Date[FullDate]
+)
+
+// 10. 3-Month Rolling Average Sales
+Sales 3M Moving Avg = 
+AVERAGEX(
+    DATESINPERIOD(
+        Dim_Date[FullDate],
+        LASTDATE(Dim_Date[FullDate]),
+        -3,
+        MONTH
+    ),
+    [Total Sales]
+)

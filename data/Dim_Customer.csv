@@ -1,0 +1,601 @@
+CustomerKey,CustomerName,Segment,City,State,Country,PrimaryRegionKey,CustomerTier
+CUST-0001,Linda Smith,Consumer,Sydney,New South Wales,Singapore,REG-APAC,Bronze
+CUST-0002,Michael Perez,Home Office,Sydney,New South Wales,Singapore,REG-APAC,Bronze
+CUST-0003,Margaret Johnson,Consumer,New York City,New York,United States,REG-EAST,Bronze
+CUST-0004,Kenneth Smith,Consumer,Seattle,Washington,United States,REG-WEST,Silver
+CUST-0005,Andrew Wilson,Consumer,San Diego,California,United States,REG-WEST,Bronze
+CUST-0006,James Harris,Corporate,Philadelphia,Pennsylvania,United States,REG-EAST,Bronze
+CUST-0007,Elizabeth Miller,Consumer,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Bronze
+CUST-0008,Michael Lopez,Corporate,Jacksonville,Florida,United States,REG-SOUT,Gold
+CUST-0009,Sandra Moore,Home Office,Houston,Texas,United States,REG-CENT,Bronze
+CUST-0010,Emily Martinez,Corporate,London,Greater London,United Kingdom,REG-EMEA,Gold
+CUST-0011,Joshua Miller,Consumer,Singapore City,Central Region,Singapore,REG-APAC,Silver
+CUST-0012,Charles Williams,Home Office,San Diego,California,United States,REG-WEST,Bronze
+CUST-0013,Sandra Lee,Consumer,Jacksonville,Florida,United States,REG-SOUT,Bronze
+CUST-0014,Sarah Thompson,Corporate,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Silver
+CUST-0015,David Moore,Consumer,Sydney,New South Wales,Singapore,REG-APAC,Silver
+CUST-0016,Sarah Robinson,Corporate,London,Greater London,United Kingdom,REG-EMEA,Bronze
+CUST-0017,Daniel Clark,Corporate,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Bronze
+CUST-0018,Robert Sanchez,Consumer,Austin,Texas,United States,REG-CENT,Bronze
+CUST-0019,Joshua Lewis,Consumer,Singapore City,Central Region,Singapore,REG-APAC,Silver
+CUST-0020,Betty Lewis,Consumer,London,Greater London,United Kingdom,REG-EMEA,Bronze
+CUST-0021,Jessica White,Corporate,Seattle,Washington,United States,REG-WEST,Silver
+CUST-0022,Margaret Lewis,Consumer,Denver,Colorado,United States,REG-WEST,Bronze
+CUST-0023,William Taylor,Consumer,San Francisco,California,United States,REG-WEST,Bronze
+CUST-0024,Linda Jones,Consumer,London,Greater London,United Kingdom,REG-EMEA,Silver
+CUST-0025,Kenneth Williams,Consumer,Fort Worth,Texas,United States,REG-CENT,Platinum
+CUST-0026,Kimberly Rodriguez,Home Office,Seattle,Washington,United States,REG-WEST,Bronze
+CUST-0027,Linda Perez,Corporate,Seattle,Washington,United States,REG-WEST,Gold
+CUST-0028,Nancy Brown,Consumer,San Jose,California,United States,REG-WEST,Silver
+CUST-0029,Thomas Taylor,Consumer,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Gold
+CUST-0030,Karen Clark,Consumer,London,Greater London,United Kingdom,REG-EMEA,Bronze
+CUST-0031,Lisa Harris,Corporate,Philadelphia,Pennsylvania,United States,REG-EAST,Gold
+CUST-0032,Kimberly Robinson,Corporate,New York City,New York,United States,REG-EAST,Silver
+CUST-0033,Linda Robinson,Home Office,Jacksonville,Florida,United States,REG-SOUT,Gold
+CUST-0034,Karen Davis,Consumer,Los Angeles,California,United States,REG-WEST,Silver
+CUST-0035,Jennifer Williams,Consumer,Sydney,New South Wales,Singapore,REG-APAC,Bronze
+CUST-0036,Andrew Harris,Consumer,Phoenix,Arizona,United States,REG-WEST,Silver
+CUST-0037,Emily Garcia,Corporate,Dallas,Texas,United States,REG-CENT,Silver
+CUST-0038,Susan Robinson,Corporate,Seattle,Washington,United States,REG-WEST,Silver
+CUST-0039,Karen Gonzalez,Corporate,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Bronze
+CUST-0040,Kimberly Anderson,Consumer,Houston,Texas,United States,REG-CENT,Bronze
+CUST-0041,Mary Jackson,Consumer,Seattle,Washington,United States,REG-WEST,Bronze
+CUST-0042,John Thompson,Consumer,London,Greater London,United Kingdom,REG-EMEA,Bronze
+CUST-0043,Robert Ramirez,Consumer,Austin,Texas,United States,REG-CENT,Bronze
+CUST-0044,Ashley Miller,Consumer,Seattle,Washington,United States,REG-WEST,Platinum
+CUST-0045,Joshua Jackson,Consumer,San Francisco,California,United States,REG-WEST,Silver
+CUST-0046,Mark Miller,Consumer,Houston,Texas,United States,REG-CENT,Bronze
+CUST-0047,Margaret Wilson,Home Office,Charlotte,North Carolina,United States,REG-SOUT,Bronze
+CUST-0048,Michael Johnson,Corporate,Fort Worth,Texas,United States,REG-CENT,Gold
+CUST-0049,Michael Davis,Consumer,San Antonio,Texas,United States,REG-CENT,Bronze
+CUST-0050,Margaret Garcia,Consumer,Dallas,Texas,United States,REG-CENT,Gold
+CUST-0051,John Anderson,Consumer,Seattle,Washington,United States,REG-WEST,Silver
+CUST-0052,Andrew Clark,Home Office,New York City,New York,United States,REG-EAST,Gold
+CUST-0053,Jessica Garcia,Consumer,Columbus,Ohio,United States,REG-EAST,Bronze
+CUST-0054,Betty Lewis,Consumer,Los Angeles,California,United States,REG-WEST,Bronze
+CUST-0055,Anthony Rodriguez,Consumer,Charlotte,North Carolina,United States,REG-SOUT,Silver
+CUST-0056,Emily Perez,Consumer,Singapore City,Central Region,Singapore,REG-APAC,Bronze
+CUST-0057,Susan Johnson,Corporate,Denver,Colorado,United States,REG-WEST,Bronze
+CUST-0058,Daniel Johnson,Corporate,Los Angeles,California,United States,REG-WEST,Silver
+CUST-0059,Kimberly Garcia,Home Office,Los Angeles,California,United States,REG-WEST,Bronze
+CUST-0060,Barbara Williams,Consumer,Boston,Massachusetts,United States,REG-EAST,Gold
+CUST-0061,Betty Brown,Consumer,Denver,Colorado,United States,REG-WEST,Silver
+CUST-0062,Michelle Williams,Corporate,Columbus,Ohio,United States,REG-EAST,Silver
+CUST-0063,Daniel Robinson,Consumer,Dallas,Texas,United States,REG-CENT,Silver
+CUST-0064,Jessica Rodriguez,Consumer,Fort Worth,Texas,United States,REG-CENT,Silver
+CUST-0065,Sandra Hernandez,Home Office,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Bronze
+CUST-0066,Michelle Jackson,Consumer,Houston,Texas,United States,REG-CENT,Bronze
+CUST-0067,Thomas Jones,Home Office,Jacksonville,Florida,United States,REG-SOUT,Gold
+CUST-0068,Lisa Martinez,Consumer,Philadelphia,Pennsylvania,United States,REG-EAST,Silver
+CUST-0069,Karen Martin,Corporate,London,Greater London,United Kingdom,REG-EMEA,Silver
+CUST-0070,Emily Martinez,Consumer,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Gold
+CUST-0071,Thomas Brown,Corporate,Houston,Texas,United States,REG-CENT,Bronze
+CUST-0072,Charles Martin,Corporate,San Antonio,Texas,United States,REG-CENT,Bronze
+CUST-0073,Thomas Taylor,Consumer,San Francisco,California,United States,REG-WEST,Gold
+CUST-0074,Patricia Williams,Consumer,London,Greater London,United Kingdom,REG-EMEA,Bronze
+CUST-0075,James Hernandez,Consumer,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Platinum
+CUST-0076,David White,Corporate,Charlotte,North Carolina,United States,REG-SOUT,Bronze
+CUST-0077,James Brown,Home Office,Chicago,Illinois,United States,REG-CENT,Silver
+CUST-0078,Elizabeth Moore,Home Office,Los Angeles,California,United States,REG-WEST,Silver
+CUST-0079,Elizabeth Wilson,Consumer,Phoenix,Arizona,United States,REG-WEST,Bronze
+CUST-0080,Robert Lewis,Consumer,Jacksonville,Florida,United States,REG-SOUT,Bronze
+CUST-0081,Michael Lopez,Corporate,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Gold
+CUST-0082,Michelle White,Home Office,Phoenix,Arizona,United States,REG-WEST,Bronze
+CUST-0083,David Sanchez,Home Office,Philadelphia,Pennsylvania,United States,REG-EAST,Bronze
+CUST-0084,Nancy Sanchez,Corporate,Columbus,Ohio,United States,REG-EAST,Gold
+CUST-0085,Jessica Rodriguez,Corporate,Philadelphia,Pennsylvania,United States,REG-EAST,Bronze
+CUST-0086,Robert Ramirez,Consumer,San Francisco,California,United States,REG-WEST,Gold
+CUST-0087,Sandra Lopez,Home Office,San Jose,California,United States,REG-WEST,Gold
+CUST-0088,Joseph Smith,Consumer,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Bronze
+CUST-0089,John Harris,Consumer,Dallas,Texas,United States,REG-CENT,Silver
+CUST-0090,Andrew Hernandez,Consumer,New York City,New York,United States,REG-EAST,Platinum
+CUST-0091,Barbara Jackson,Consumer,Dallas,Texas,United States,REG-CENT,Silver
+CUST-0092,Matthew White,Consumer,Austin,Texas,United States,REG-CENT,Platinum
+CUST-0093,Linda Gonzalez,Consumer,Denver,Colorado,United States,REG-WEST,Bronze
+CUST-0094,Margaret Smith,Home Office,Indianapolis,Indiana,United States,REG-CENT,Silver
+CUST-0095,Richard Lopez,Consumer,Columbus,Ohio,United States,REG-EAST,Silver
+CUST-0096,Nancy Martin,Corporate,Austin,Texas,United States,REG-CENT,Bronze
+CUST-0097,Karen Taylor,Corporate,San Jose,California,United States,REG-WEST,Bronze
+CUST-0098,Charles Moore,Consumer,Phoenix,Arizona,United States,REG-WEST,Silver
+CUST-0099,Anthony Perez,Home Office,Sydney,New South Wales,Singapore,REG-APAC,Silver
+CUST-0100,Karen Gonzalez,Home Office,Seattle,Washington,United States,REG-WEST,Bronze
+CUST-0101,Susan Wilson,Corporate,Denver,Colorado,United States,REG-WEST,Bronze
+CUST-0102,Donald Anderson,Consumer,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Silver
+CUST-0103,David Perez,Consumer,Chicago,Illinois,United States,REG-CENT,Silver
+CUST-0104,Michelle Hernandez,Corporate,Chicago,Illinois,United States,REG-CENT,Gold
+CUST-0105,Karen Davis,Consumer,San Antonio,Texas,United States,REG-CENT,Bronze
+CUST-0106,Steven Martin,Consumer,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Bronze
+CUST-0107,Joshua Miller,Corporate,Singapore City,Central Region,Singapore,REG-APAC,Silver
+CUST-0108,Jessica Jones,Corporate,London,Greater London,United Kingdom,REG-EMEA,Gold
+CUST-0109,Michael Harris,Consumer,Columbus,Ohio,United States,REG-EAST,Gold
+CUST-0110,Kimberly Anderson,Corporate,Los Angeles,California,United States,REG-WEST,Gold
+CUST-0111,Linda Anderson,Corporate,Phoenix,Arizona,United States,REG-WEST,Silver
+CUST-0112,Emily Martin,Home Office,Austin,Texas,United States,REG-CENT,Gold
+CUST-0113,Michelle Clark,Home Office,Sydney,New South Wales,Singapore,REG-APAC,Bronze
+CUST-0114,Emily Anderson,Corporate,Philadelphia,Pennsylvania,United States,REG-EAST,Silver
+CUST-0115,Thomas Harris,Home Office,San Diego,California,United States,REG-WEST,Bronze
+CUST-0116,Kimberly Thomas,Consumer,London,Greater London,United Kingdom,REG-EMEA,Bronze
+CUST-0117,Charles Davis,Consumer,Dallas,Texas,United States,REG-CENT,Gold
+CUST-0118,Jennifer Jones,Consumer,Phoenix,Arizona,United States,REG-WEST,Silver
+CUST-0119,Susan Williams,Consumer,Columbus,Ohio,United States,REG-EAST,Silver
+CUST-0120,Mark Johnson,Home Office,San Antonio,Texas,United States,REG-CENT,Bronze
+CUST-0121,Donna Thompson,Home Office,New York City,New York,United States,REG-EAST,Gold
+CUST-0122,Anthony Thomas,Home Office,New York City,New York,United States,REG-EAST,Bronze
+CUST-0123,Anthony Ramirez,Corporate,Columbus,Ohio,United States,REG-EAST,Silver
+CUST-0124,Kenneth Lewis,Consumer,San Diego,California,United States,REG-WEST,Bronze
+CUST-0125,Ashley Smith,Consumer,Fort Worth,Texas,United States,REG-CENT,Silver
+CUST-0126,Betty White,Home Office,Philadelphia,Pennsylvania,United States,REG-EAST,Gold
+CUST-0127,Michelle Moore,Home Office,New York City,New York,United States,REG-EAST,Silver
+CUST-0128,Mary Williams,Consumer,London,Greater London,United Kingdom,REG-EMEA,Gold
+CUST-0129,Barbara Johnson,Consumer,Dallas,Texas,United States,REG-CENT,Bronze
+CUST-0130,Daniel Hernandez,Home Office,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Bronze
+CUST-0131,Mark Rodriguez,Consumer,Chicago,Illinois,United States,REG-CENT,Silver
+CUST-0132,Patricia Lopez,Corporate,San Diego,California,United States,REG-WEST,Gold
+CUST-0133,Robert Harris,Home Office,New York City,New York,United States,REG-EAST,Bronze
+CUST-0134,Mary Martin,Consumer,Phoenix,Arizona,United States,REG-WEST,Silver
+CUST-0135,Linda Jackson,Consumer,San Antonio,Texas,United States,REG-CENT,Bronze
+CUST-0136,Lisa Garcia,Corporate,Boston,Massachusetts,United States,REG-EAST,Silver
+CUST-0137,Linda Harris,Home Office,Philadelphia,Pennsylvania,United States,REG-EAST,Bronze
+CUST-0138,Mary Robinson,Corporate,San Jose,California,United States,REG-WEST,Gold
+CUST-0139,Anthony Gonzalez,Consumer,Singapore City,Central Region,Singapore,REG-APAC,Silver
+CUST-0140,Jessica Brown,Corporate,Singapore City,Central Region,Singapore,REG-APAC,Gold
+CUST-0141,Kenneth Sanchez,Corporate,Houston,Texas,United States,REG-CENT,Silver
+CUST-0142,Robert Lopez,Consumer,Seattle,Washington,United States,REG-WEST,Bronze
+CUST-0143,Paul Lee,Consumer,Austin,Texas,United States,REG-CENT,Bronze
+CUST-0144,Ashley Brown,Home Office,Columbus,Ohio,United States,REG-EAST,Silver
+CUST-0145,Sandra Thompson,Consumer,Phoenix,Arizona,United States,REG-WEST,Silver
+CUST-0146,Sarah Martin,Corporate,Seattle,Washington,United States,REG-WEST,Silver
+CUST-0147,Donna Rodriguez,Home Office,Austin,Texas,United States,REG-CENT,Gold
+CUST-0148,Jennifer Rodriguez,Consumer,Charlotte,North Carolina,United States,REG-SOUT,Silver
+CUST-0149,Michelle Perez,Consumer,Fort Worth,Texas,United States,REG-CENT,Silver
+CUST-0150,Daniel Garcia,Consumer,San Francisco,California,United States,REG-WEST,Gold
+CUST-0151,Nancy Rodriguez,Corporate,Boston,Massachusetts,United States,REG-EAST,Bronze
+CUST-0152,James Taylor,Consumer,San Antonio,Texas,United States,REG-CENT,Silver
+CUST-0153,Ashley Moore,Consumer,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Silver
+CUST-0154,Ashley Anderson,Consumer,New York City,New York,United States,REG-EAST,Bronze
+CUST-0155,Jessica Martinez,Corporate,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Silver
+CUST-0156,Kimberly Lopez,Home Office,Columbus,Ohio,United States,REG-EAST,Silver
+CUST-0157,Matthew Thompson,Consumer,Charlotte,North Carolina,United States,REG-SOUT,Bronze
+CUST-0158,Linda White,Consumer,San Antonio,Texas,United States,REG-CENT,Silver
+CUST-0159,Barbara Miller,Corporate,San Antonio,Texas,United States,REG-CENT,Bronze
+CUST-0160,Donna Harris,Corporate,Indianapolis,Indiana,United States,REG-CENT,Platinum
+CUST-0161,Richard Martinez,Consumer,San Diego,California,United States,REG-WEST,Bronze
+CUST-0162,Andrew Jones,Consumer,Dallas,Texas,United States,REG-CENT,Bronze
+CUST-0163,Charles Thompson,Corporate,Phoenix,Arizona,United States,REG-WEST,Gold
+CUST-0164,Michael Ramirez,Corporate,New York City,New York,United States,REG-EAST,Silver
+CUST-0165,Donald Hernandez,Home Office,Philadelphia,Pennsylvania,United States,REG-EAST,Bronze
+CUST-0166,Steven Brown,Consumer,Chicago,Illinois,United States,REG-CENT,Bronze
+CUST-0167,Patricia Jones,Corporate,Phoenix,Arizona,United States,REG-WEST,Platinum
+CUST-0168,Jennifer Davis,Corporate,Houston,Texas,United States,REG-CENT,Bronze
+CUST-0169,Kenneth Sanchez,Consumer,Boston,Massachusetts,United States,REG-EAST,Silver
+CUST-0170,Donald Robinson,Consumer,Charlotte,North Carolina,United States,REG-SOUT,Silver
+CUST-0171,Margaret Martinez,Corporate,Denver,Colorado,United States,REG-WEST,Silver
+CUST-0172,Michael Harris,Corporate,San Antonio,Texas,United States,REG-CENT,Bronze
+CUST-0173,Jennifer Garcia,Consumer,San Diego,California,United States,REG-WEST,Bronze
+CUST-0174,James Wilson,Corporate,Charlotte,North Carolina,United States,REG-SOUT,Silver
+CUST-0175,Robert Davis,Corporate,San Jose,California,United States,REG-WEST,Silver
+CUST-0176,Sandra Williams,Consumer,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Bronze
+CUST-0177,Donna Perez,Consumer,San Antonio,Texas,United States,REG-CENT,Silver
+CUST-0178,Elizabeth Robinson,Home Office,Dallas,Texas,United States,REG-CENT,Bronze
+CUST-0179,David Sanchez,Corporate,San Jose,California,United States,REG-WEST,Gold
+CUST-0180,Charles Anderson,Consumer,Houston,Texas,United States,REG-CENT,Bronze
+CUST-0181,Betty Rodriguez,Corporate,Indianapolis,Indiana,United States,REG-CENT,Bronze
+CUST-0182,Kenneth Johnson,Corporate,Columbus,Ohio,United States,REG-EAST,Silver
+CUST-0183,Mary Williams,Home Office,San Diego,California,United States,REG-WEST,Gold
+CUST-0184,Joshua Jackson,Home Office,New York City,New York,United States,REG-EAST,Silver
+CUST-0185,Sarah Jackson,Corporate,Los Angeles,California,United States,REG-WEST,Bronze
+CUST-0186,Kimberly Lee,Home Office,Charlotte,North Carolina,United States,REG-SOUT,Bronze
+CUST-0187,Donna Wilson,Corporate,London,Greater London,United Kingdom,REG-EMEA,Platinum
+CUST-0188,Steven Lopez,Consumer,Columbus,Ohio,United States,REG-EAST,Silver
+CUST-0189,David Hernandez,Corporate,Columbus,Ohio,United States,REG-EAST,Bronze
+CUST-0190,Betty Clark,Corporate,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Silver
+CUST-0191,Daniel Rodriguez,Consumer,Austin,Texas,United States,REG-CENT,Gold
+CUST-0192,Paul Clark,Corporate,New York City,New York,United States,REG-EAST,Silver
+CUST-0193,Mark Johnson,Consumer,San Antonio,Texas,United States,REG-CENT,Silver
+CUST-0194,Ashley Lee,Corporate,Charlotte,North Carolina,United States,REG-SOUT,Bronze
+CUST-0195,Emily Jones,Consumer,San Jose,California,United States,REG-WEST,Silver
+CUST-0196,Linda Smith,Corporate,London,Greater London,United Kingdom,REG-EMEA,Bronze
+CUST-0197,David Martinez,Consumer,Seattle,Washington,United States,REG-WEST,Bronze
+CUST-0198,Joseph Clark,Consumer,Houston,Texas,United States,REG-CENT,Bronze
+CUST-0199,Elizabeth Thomas,Consumer,Singapore City,Central Region,Singapore,REG-APAC,Silver
+CUST-0200,Mark Clark,Home Office,San Francisco,California,United States,REG-WEST,Bronze
+CUST-0201,Emily Jones,Consumer,Fort Worth,Texas,United States,REG-CENT,Silver
+CUST-0202,William Ramirez,Consumer,Chicago,Illinois,United States,REG-CENT,Gold
+CUST-0203,Mark Hernandez,Consumer,Indianapolis,Indiana,United States,REG-CENT,Bronze
+CUST-0204,Karen Clark,Corporate,Denver,Colorado,United States,REG-WEST,Silver
+CUST-0205,Elizabeth Anderson,Consumer,Seattle,Washington,United States,REG-WEST,Bronze
+CUST-0206,Andrew Gonzalez,Home Office,Charlotte,North Carolina,United States,REG-SOUT,Gold
+CUST-0207,Jessica Jackson,Consumer,Fort Worth,Texas,United States,REG-CENT,Gold
+CUST-0208,Robert Hernandez,Consumer,Sydney,New South Wales,Singapore,REG-APAC,Gold
+CUST-0209,Anthony Gonzalez,Corporate,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Silver
+CUST-0210,Elizabeth Thomas,Consumer,Los Angeles,California,United States,REG-WEST,Platinum
+CUST-0211,Nancy Ramirez,Home Office,Houston,Texas,United States,REG-CENT,Bronze
+CUST-0212,Kimberly Robinson,Consumer,Charlotte,North Carolina,United States,REG-SOUT,Bronze
+CUST-0213,Elizabeth Williams,Corporate,San Francisco,California,United States,REG-WEST,Bronze
+CUST-0214,Michelle Thompson,Corporate,Fort Worth,Texas,United States,REG-CENT,Gold
+CUST-0215,Andrew Gonzalez,Corporate,Austin,Texas,United States,REG-CENT,Gold
+CUST-0216,Ashley Ramirez,Consumer,Seattle,Washington,United States,REG-WEST,Bronze
+CUST-0217,Charles Davis,Consumer,Sydney,New South Wales,Singapore,REG-APAC,Platinum
+CUST-0218,Michael Anderson,Corporate,Philadelphia,Pennsylvania,United States,REG-EAST,Gold
+CUST-0219,Robert Hernandez,Consumer,Los Angeles,California,United States,REG-WEST,Bronze
+CUST-0220,Elizabeth Davis,Consumer,Indianapolis,Indiana,United States,REG-CENT,Silver
+CUST-0221,Barbara Garcia,Consumer,Philadelphia,Pennsylvania,United States,REG-EAST,Gold
+CUST-0222,Michelle Perez,Consumer,San Diego,California,United States,REG-WEST,Silver
+CUST-0223,Joseph Anderson,Consumer,London,Greater London,United Kingdom,REG-EMEA,Bronze
+CUST-0224,James Lewis,Home Office,Charlotte,North Carolina,United States,REG-SOUT,Silver
+CUST-0225,David Williams,Home Office,Charlotte,North Carolina,United States,REG-SOUT,Platinum
+CUST-0226,Karen Lee,Corporate,Columbus,Ohio,United States,REG-EAST,Silver
+CUST-0227,Karen Miller,Home Office,Fort Worth,Texas,United States,REG-CENT,Bronze
+CUST-0228,Anthony Jackson,Corporate,Jacksonville,Florida,United States,REG-SOUT,Platinum
+CUST-0229,Charles Smith,Consumer,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Bronze
+CUST-0230,Patricia Robinson,Corporate,Boston,Massachusetts,United States,REG-EAST,Gold
+CUST-0231,Charles Harris,Corporate,San Diego,California,United States,REG-WEST,Bronze
+CUST-0232,Richard Martin,Corporate,Dallas,Texas,United States,REG-CENT,Silver
+CUST-0233,William Lee,Home Office,Houston,Texas,United States,REG-CENT,Silver
+CUST-0234,Karen Sanchez,Consumer,Charlotte,North Carolina,United States,REG-SOUT,Bronze
+CUST-0235,William Williams,Consumer,San Jose,California,United States,REG-WEST,Bronze
+CUST-0236,Richard Jones,Home Office,Seattle,Washington,United States,REG-WEST,Bronze
+CUST-0237,Paul Robinson,Home Office,Dallas,Texas,United States,REG-CENT,Bronze
+CUST-0238,Steven Sanchez,Corporate,San Jose,California,United States,REG-WEST,Bronze
+CUST-0239,Linda Anderson,Consumer,Chicago,Illinois,United States,REG-CENT,Platinum
+CUST-0240,Betty Ramirez,Consumer,Seattle,Washington,United States,REG-WEST,Gold
+CUST-0241,James Rodriguez,Consumer,Seattle,Washington,United States,REG-WEST,Bronze
+CUST-0242,Thomas Jackson,Home Office,Fort Worth,Texas,United States,REG-CENT,Platinum
+CUST-0243,Michael Perez,Consumer,San Diego,California,United States,REG-WEST,Silver
+CUST-0244,Emily Hernandez,Consumer,Boston,Massachusetts,United States,REG-EAST,Bronze
+CUST-0245,Sandra Robinson,Consumer,Singapore City,Central Region,Singapore,REG-APAC,Bronze
+CUST-0246,William Johnson,Consumer,Los Angeles,California,United States,REG-WEST,Silver
+CUST-0247,Michael Davis,Consumer,Seattle,Washington,United States,REG-WEST,Silver
+CUST-0248,Andrew Wilson,Corporate,Denver,Colorado,United States,REG-WEST,Bronze
+CUST-0249,Mark Lee,Home Office,Houston,Texas,United States,REG-CENT,Silver
+CUST-0250,Sarah Johnson,Consumer,Singapore City,Central Region,Singapore,REG-APAC,Bronze
+CUST-0251,Jessica Ramirez,Consumer,Jacksonville,Florida,United States,REG-SOUT,Silver
+CUST-0252,Andrew Lewis,Consumer,London,Greater London,United Kingdom,REG-EMEA,Bronze
+CUST-0253,Richard Brown,Consumer,Charlotte,North Carolina,United States,REG-SOUT,Bronze
+CUST-0254,Kenneth Smith,Corporate,Los Angeles,California,United States,REG-WEST,Bronze
+CUST-0255,William Sanchez,Consumer,Denver,Colorado,United States,REG-WEST,Gold
+CUST-0256,Emily Miller,Consumer,Denver,Colorado,United States,REG-WEST,Gold
+CUST-0257,Nancy Harris,Corporate,Phoenix,Arizona,United States,REG-WEST,Silver
+CUST-0258,Sarah Ramirez,Home Office,Phoenix,Arizona,United States,REG-WEST,Silver
+CUST-0259,Barbara Brown,Home Office,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Bronze
+CUST-0260,Matthew Sanchez,Corporate,San Diego,California,United States,REG-WEST,Bronze
+CUST-0261,Thomas Johnson,Corporate,Phoenix,Arizona,United States,REG-WEST,Silver
+CUST-0262,John Thomas,Corporate,Charlotte,North Carolina,United States,REG-SOUT,Silver
+CUST-0263,Michael Anderson,Consumer,Indianapolis,Indiana,United States,REG-CENT,Silver
+CUST-0264,Kimberly Martinez,Corporate,Charlotte,North Carolina,United States,REG-SOUT,Bronze
+CUST-0265,Steven Ramirez,Consumer,Fort Worth,Texas,United States,REG-CENT,Bronze
+CUST-0266,Donald Williams,Consumer,Chicago,Illinois,United States,REG-CENT,Bronze
+CUST-0267,William Rodriguez,Corporate,Boston,Massachusetts,United States,REG-EAST,Silver
+CUST-0268,Daniel Gonzalez,Corporate,Boston,Massachusetts,United States,REG-EAST,Silver
+CUST-0269,Kenneth Wilson,Corporate,Houston,Texas,United States,REG-CENT,Bronze
+CUST-0270,Emily White,Consumer,San Antonio,Texas,United States,REG-CENT,Gold
+CUST-0271,Mark Hernandez,Consumer,Charlotte,North Carolina,United States,REG-SOUT,Silver
+CUST-0272,Daniel Wilson,Corporate,Austin,Texas,United States,REG-CENT,Bronze
+CUST-0273,Elizabeth Perez,Consumer,San Francisco,California,United States,REG-WEST,Gold
+CUST-0274,Jennifer Wilson,Corporate,Houston,Texas,United States,REG-CENT,Bronze
+CUST-0275,William Moore,Corporate,Los Angeles,California,United States,REG-WEST,Silver
+CUST-0276,Nancy Perez,Consumer,Houston,Texas,United States,REG-CENT,Gold
+CUST-0277,Margaret Ramirez,Consumer,Sydney,New South Wales,Singapore,REG-APAC,Bronze
+CUST-0278,Karen Lopez,Corporate,Houston,Texas,United States,REG-CENT,Bronze
+CUST-0279,Steven Davis,Consumer,Houston,Texas,United States,REG-CENT,Silver
+CUST-0280,Linda Harris,Corporate,Dallas,Texas,United States,REG-CENT,Gold
+CUST-0281,Emily Harris,Corporate,Boston,Massachusetts,United States,REG-EAST,Silver
+CUST-0282,Mary Martin,Home Office,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Bronze
+CUST-0283,Barbara Rodriguez,Corporate,Singapore City,Central Region,Singapore,REG-APAC,Gold
+CUST-0284,Matthew Smith,Home Office,Philadelphia,Pennsylvania,United States,REG-EAST,Silver
+CUST-0285,Betty Williams,Corporate,Phoenix,Arizona,United States,REG-WEST,Platinum
+CUST-0286,Jennifer White,Consumer,Indianapolis,Indiana,United States,REG-CENT,Bronze
+CUST-0287,Nancy Garcia,Consumer,Jacksonville,Florida,United States,REG-SOUT,Bronze
+CUST-0288,Joshua Martin,Home Office,Chicago,Illinois,United States,REG-CENT,Bronze
+CUST-0289,Michelle Johnson,Consumer,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Bronze
+CUST-0290,Margaret Thomas,Consumer,Boston,Massachusetts,United States,REG-EAST,Bronze
+CUST-0291,Paul Brown,Consumer,Jacksonville,Florida,United States,REG-SOUT,Bronze
+CUST-0292,Donna Thomas,Corporate,Indianapolis,Indiana,United States,REG-CENT,Bronze
+CUST-0293,Betty Martin,Consumer,Los Angeles,California,United States,REG-WEST,Bronze
+CUST-0294,Susan Harris,Corporate,Phoenix,Arizona,United States,REG-WEST,Bronze
+CUST-0295,Linda Smith,Corporate,San Francisco,California,United States,REG-WEST,Bronze
+CUST-0296,Anthony Moore,Consumer,Singapore City,Central Region,Singapore,REG-APAC,Silver
+CUST-0297,Matthew Williams,Home Office,Fort Worth,Texas,United States,REG-CENT,Bronze
+CUST-0298,Mary Anderson,Home Office,Chicago,Illinois,United States,REG-CENT,Silver
+CUST-0299,Joshua Gonzalez,Corporate,Singapore City,Central Region,Singapore,REG-APAC,Bronze
+CUST-0300,Betty Smith,Consumer,Austin,Texas,United States,REG-CENT,Platinum
+CUST-0301,Sandra Clark,Home Office,Singapore City,Central Region,Singapore,REG-APAC,Bronze
+CUST-0302,Michael Davis,Corporate,Columbus,Ohio,United States,REG-EAST,Silver
+CUST-0303,Betty Ramirez,Corporate,San Jose,California,United States,REG-WEST,Bronze
+CUST-0304,David Williams,Corporate,Indianapolis,Indiana,United States,REG-CENT,Silver
+CUST-0305,Richard Lewis,Consumer,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Silver
+CUST-0306,Elizabeth Davis,Consumer,Houston,Texas,United States,REG-CENT,Bronze
+CUST-0307,Kenneth Jones,Corporate,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Bronze
+CUST-0308,Ashley Anderson,Corporate,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Silver
+CUST-0309,Joshua Lee,Home Office,London,Greater London,United Kingdom,REG-EMEA,Bronze
+CUST-0310,Daniel Jones,Consumer,Charlotte,North Carolina,United States,REG-SOUT,Bronze
+CUST-0311,Karen Sanchez,Corporate,Dallas,Texas,United States,REG-CENT,Bronze
+CUST-0312,John Martinez,Consumer,Charlotte,North Carolina,United States,REG-SOUT,Bronze
+CUST-0313,Charles Williams,Home Office,London,Greater London,United Kingdom,REG-EMEA,Gold
+CUST-0314,Michelle Martin,Consumer,Indianapolis,Indiana,United States,REG-CENT,Silver
+CUST-0315,Robert Anderson,Corporate,Denver,Colorado,United States,REG-WEST,Bronze
+CUST-0316,Steven Taylor,Home Office,Phoenix,Arizona,United States,REG-WEST,Silver
+CUST-0317,Nancy Thompson,Consumer,Chicago,Illinois,United States,REG-CENT,Bronze
+CUST-0318,Jessica Thompson,Home Office,Charlotte,North Carolina,United States,REG-SOUT,Silver
+CUST-0319,Michelle Garcia,Consumer,Jacksonville,Florida,United States,REG-SOUT,Bronze
+CUST-0320,Mark Harris,Corporate,Austin,Texas,United States,REG-CENT,Bronze
+CUST-0321,Nancy Williams,Consumer,Austin,Texas,United States,REG-CENT,Silver
+CUST-0322,Charles Rodriguez,Home Office,Sydney,New South Wales,Singapore,REG-APAC,Platinum
+CUST-0323,Kenneth Ramirez,Consumer,Phoenix,Arizona,United States,REG-WEST,Silver
+CUST-0324,Elizabeth Robinson,Consumer,Jacksonville,Florida,United States,REG-SOUT,Silver
+CUST-0325,Betty Jones,Corporate,Boston,Massachusetts,United States,REG-EAST,Bronze
+CUST-0326,Emily Gonzalez,Corporate,London,Greater London,United Kingdom,REG-EMEA,Gold
+CUST-0327,Kimberly Williams,Corporate,London,Greater London,United Kingdom,REG-EMEA,Silver
+CUST-0328,Mary Lopez,Consumer,San Jose,California,United States,REG-WEST,Bronze
+CUST-0329,Ashley Miller,Home Office,San Diego,California,United States,REG-WEST,Bronze
+CUST-0330,Charles Ramirez,Consumer,Houston,Texas,United States,REG-CENT,Silver
+CUST-0331,Kimberly Johnson,Consumer,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Gold
+CUST-0332,William Martin,Consumer,Fort Worth,Texas,United States,REG-CENT,Bronze
+CUST-0333,Michelle Sanchez,Corporate,Philadelphia,Pennsylvania,United States,REG-EAST,Bronze
+CUST-0334,Lisa Perez,Consumer,Sydney,New South Wales,Singapore,REG-APAC,Bronze
+CUST-0335,Charles Harris,Corporate,Sydney,New South Wales,Singapore,REG-APAC,Bronze
+CUST-0336,Jessica Martinez,Home Office,San Francisco,California,United States,REG-WEST,Bronze
+CUST-0337,Joshua Anderson,Corporate,Charlotte,North Carolina,United States,REG-SOUT,Gold
+CUST-0338,Paul Taylor,Home Office,Columbus,Ohio,United States,REG-EAST,Gold
+CUST-0339,Kenneth Jones,Consumer,Dallas,Texas,United States,REG-CENT,Silver
+CUST-0340,Lisa Moore,Corporate,Houston,Texas,United States,REG-CENT,Silver
+CUST-0341,Linda Martinez,Corporate,Chicago,Illinois,United States,REG-CENT,Bronze
+CUST-0342,Paul Jones,Consumer,Columbus,Ohio,United States,REG-EAST,Gold
+CUST-0343,Donald Lewis,Home Office,Jacksonville,Florida,United States,REG-SOUT,Bronze
+CUST-0344,Betty Taylor,Consumer,Jacksonville,Florida,United States,REG-SOUT,Platinum
+CUST-0345,Lisa Davis,Consumer,New York City,New York,United States,REG-EAST,Bronze
+CUST-0346,Nancy Sanchez,Consumer,Phoenix,Arizona,United States,REG-WEST,Bronze
+CUST-0347,Steven Thompson,Corporate,Phoenix,Arizona,United States,REG-WEST,Silver
+CUST-0348,Michelle Smith,Consumer,Chicago,Illinois,United States,REG-CENT,Bronze
+CUST-0349,Elizabeth Moore,Corporate,Sydney,New South Wales,Singapore,REG-APAC,Bronze
+CUST-0350,Charles Davis,Consumer,San Jose,California,United States,REG-WEST,Bronze
+CUST-0351,Michelle Anderson,Consumer,Chicago,Illinois,United States,REG-CENT,Gold
+CUST-0352,Kenneth Moore,Corporate,New York City,New York,United States,REG-EAST,Silver
+CUST-0353,Elizabeth Martinez,Consumer,Columbus,Ohio,United States,REG-EAST,Bronze
+CUST-0354,Joshua Wilson,Corporate,Philadelphia,Pennsylvania,United States,REG-EAST,Bronze
+CUST-0355,Lisa Williams,Corporate,Indianapolis,Indiana,United States,REG-CENT,Gold
+CUST-0356,Paul Moore,Consumer,New York City,New York,United States,REG-EAST,Silver
+CUST-0357,Anthony Lopez,Corporate,Dallas,Texas,United States,REG-CENT,Bronze
+CUST-0358,John Lopez,Corporate,San Diego,California,United States,REG-WEST,Silver
+CUST-0359,Donna White,Consumer,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Bronze
+CUST-0360,Andrew Hernandez,Consumer,London,Greater London,United Kingdom,REG-EMEA,Gold
+CUST-0361,Sandra Thompson,Corporate,San Francisco,California,United States,REG-WEST,Gold
+CUST-0362,John Thompson,Home Office,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Bronze
+CUST-0363,Richard Johnson,Home Office,San Antonio,Texas,United States,REG-CENT,Bronze
+CUST-0364,Karen Taylor,Home Office,Fort Worth,Texas,United States,REG-CENT,Silver
+CUST-0365,Thomas Johnson,Corporate,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Bronze
+CUST-0366,Patricia Ramirez,Consumer,London,Greater London,United Kingdom,REG-EMEA,Bronze
+CUST-0367,Lisa Wilson,Corporate,Fort Worth,Texas,United States,REG-CENT,Gold
+CUST-0368,Anthony Hernandez,Consumer,Philadelphia,Pennsylvania,United States,REG-EAST,Silver
+CUST-0369,Kimberly Rodriguez,Corporate,Chicago,Illinois,United States,REG-CENT,Bronze
+CUST-0370,Kenneth Clark,Corporate,Philadelphia,Pennsylvania,United States,REG-EAST,Bronze
+CUST-0371,Jennifer Hernandez,Consumer,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Bronze
+CUST-0372,Margaret Garcia,Consumer,Singapore City,Central Region,Singapore,REG-APAC,Bronze
+CUST-0373,Matthew Martin,Consumer,Columbus,Ohio,United States,REG-EAST,Platinum
+CUST-0374,Patricia Williams,Corporate,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Bronze
+CUST-0375,David Smith,Home Office,Phoenix,Arizona,United States,REG-WEST,Silver
+CUST-0376,Donald Johnson,Consumer,Phoenix,Arizona,United States,REG-WEST,Gold
+CUST-0377,Lisa Lopez,Home Office,Fort Worth,Texas,United States,REG-CENT,Bronze
+CUST-0378,Elizabeth Perez,Home Office,Charlotte,North Carolina,United States,REG-SOUT,Bronze
+CUST-0379,John Jackson,Corporate,Phoenix,Arizona,United States,REG-WEST,Bronze
+CUST-0380,Sarah Davis,Consumer,Houston,Texas,United States,REG-CENT,Bronze
+CUST-0381,Kimberly Gonzalez,Consumer,Seattle,Washington,United States,REG-WEST,Gold
+CUST-0382,Donald Miller,Consumer,Boston,Massachusetts,United States,REG-EAST,Gold
+CUST-0383,Ashley Miller,Consumer,Houston,Texas,United States,REG-CENT,Bronze
+CUST-0384,Barbara Lewis,Consumer,Singapore City,Central Region,Singapore,REG-APAC,Bronze
+CUST-0385,Daniel Perez,Corporate,Jacksonville,Florida,United States,REG-SOUT,Silver
+CUST-0386,Charles Lewis,Home Office,San Jose,California,United States,REG-WEST,Silver
+CUST-0387,Barbara Sanchez,Consumer,Jacksonville,Florida,United States,REG-SOUT,Bronze
+CUST-0388,Richard Sanchez,Consumer,Phoenix,Arizona,United States,REG-WEST,Silver
+CUST-0389,Lisa Moore,Consumer,Denver,Colorado,United States,REG-WEST,Gold
+CUST-0390,Emily Jones,Home Office,Boston,Massachusetts,United States,REG-EAST,Bronze
+CUST-0391,Betty Thompson,Consumer,Sydney,New South Wales,Singapore,REG-APAC,Bronze
+CUST-0392,Mark Clark,Consumer,Denver,Colorado,United States,REG-WEST,Platinum
+CUST-0393,John Anderson,Corporate,Charlotte,North Carolina,United States,REG-SOUT,Bronze
+CUST-0394,Emily Lee,Consumer,Denver,Colorado,United States,REG-WEST,Platinum
+CUST-0395,Margaret Taylor,Home Office,Los Angeles,California,United States,REG-WEST,Silver
+CUST-0396,Karen Garcia,Consumer,Philadelphia,Pennsylvania,United States,REG-EAST,Silver
+CUST-0397,Matthew Taylor,Home Office,San Jose,California,United States,REG-WEST,Bronze
+CUST-0398,Emily Rodriguez,Corporate,Phoenix,Arizona,United States,REG-WEST,Silver
+CUST-0399,Jennifer Taylor,Consumer,London,Greater London,United Kingdom,REG-EMEA,Platinum
+CUST-0400,Elizabeth Garcia,Corporate,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Gold
+CUST-0401,Nancy Clark,Consumer,Denver,Colorado,United States,REG-WEST,Gold
+CUST-0402,Jennifer Johnson,Corporate,London,Greater London,United Kingdom,REG-EMEA,Bronze
+CUST-0403,Susan Harris,Consumer,Denver,Colorado,United States,REG-WEST,Silver
+CUST-0404,Ashley Lewis,Corporate,London,Greater London,United Kingdom,REG-EMEA,Silver
+CUST-0405,Karen Thomas,Corporate,San Diego,California,United States,REG-WEST,Silver
+CUST-0406,Karen Anderson,Corporate,Chicago,Illinois,United States,REG-CENT,Bronze
+CUST-0407,Mark Thomas,Consumer,Charlotte,North Carolina,United States,REG-SOUT,Silver
+CUST-0408,Daniel Ramirez,Consumer,Singapore City,Central Region,Singapore,REG-APAC,Platinum
+CUST-0409,Matthew Gonzalez,Corporate,Phoenix,Arizona,United States,REG-WEST,Silver
+CUST-0410,Michael Hernandez,Consumer,San Diego,California,United States,REG-WEST,Bronze
+CUST-0411,Jessica Jones,Consumer,Houston,Texas,United States,REG-CENT,Platinum
+CUST-0412,Michelle Wilson,Home Office,San Diego,California,United States,REG-WEST,Gold
+CUST-0413,Daniel Robinson,Corporate,Denver,Colorado,United States,REG-WEST,Bronze
+CUST-0414,David Thomas,Consumer,Indianapolis,Indiana,United States,REG-CENT,Gold
+CUST-0415,Ashley Smith,Home Office,Chicago,Illinois,United States,REG-CENT,Silver
+CUST-0416,Jessica Miller,Consumer,Denver,Colorado,United States,REG-WEST,Bronze
+CUST-0417,Ashley Martin,Corporate,London,Greater London,United Kingdom,REG-EMEA,Bronze
+CUST-0418,James Ramirez,Consumer,Houston,Texas,United States,REG-CENT,Gold
+CUST-0419,Lisa Harris,Consumer,Fort Worth,Texas,United States,REG-CENT,Bronze
+CUST-0420,Joshua Moore,Consumer,San Antonio,Texas,United States,REG-CENT,Bronze
+CUST-0421,Anthony Taylor,Corporate,Charlotte,North Carolina,United States,REG-SOUT,Bronze
+CUST-0422,Michelle Perez,Consumer,Boston,Massachusetts,United States,REG-EAST,Platinum
+CUST-0423,Betty Lopez,Corporate,Austin,Texas,United States,REG-CENT,Bronze
+CUST-0424,Elizabeth Miller,Consumer,Boston,Massachusetts,United States,REG-EAST,Silver
+CUST-0425,Robert Johnson,Corporate,Phoenix,Arizona,United States,REG-WEST,Gold
+CUST-0426,Kimberly Anderson,Corporate,Phoenix,Arizona,United States,REG-WEST,Silver
+CUST-0427,Daniel Robinson,Consumer,Boston,Massachusetts,United States,REG-EAST,Bronze
+CUST-0428,Michelle White,Corporate,San Jose,California,United States,REG-WEST,Silver
+CUST-0429,Paul Moore,Corporate,San Francisco,California,United States,REG-WEST,Bronze
+CUST-0430,Mary Lopez,Corporate,Austin,Texas,United States,REG-CENT,Platinum
+CUST-0431,Donna Martinez,Home Office,Sydney,New South Wales,Singapore,REG-APAC,Silver
+CUST-0432,Kenneth Thomas,Home Office,Dallas,Texas,United States,REG-CENT,Gold
+CUST-0433,Donna Jackson,Corporate,San Diego,California,United States,REG-WEST,Silver
+CUST-0434,David Taylor,Corporate,London,Greater London,United Kingdom,REG-EMEA,Gold
+CUST-0435,Anthony Jones,Consumer,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Silver
+CUST-0436,Linda Miller,Consumer,New York City,New York,United States,REG-EAST,Bronze
+CUST-0437,Mark Thompson,Consumer,San Antonio,Texas,United States,REG-CENT,Gold
+CUST-0438,Steven Ramirez,Corporate,Sydney,New South Wales,Singapore,REG-APAC,Silver
+CUST-0439,Kimberly Miller,Consumer,Seattle,Washington,United States,REG-WEST,Silver
+CUST-0440,Kimberly Gonzalez,Home Office,Austin,Texas,United States,REG-CENT,Silver
+CUST-0441,Andrew Hernandez,Consumer,Seattle,Washington,United States,REG-WEST,Gold
+CUST-0442,Thomas Martin,Consumer,San Francisco,California,United States,REG-WEST,Bronze
+CUST-0443,Emily Martinez,Home Office,San Diego,California,United States,REG-WEST,Platinum
+CUST-0444,Charles Thompson,Corporate,San Antonio,Texas,United States,REG-CENT,Silver
+CUST-0445,Steven Lopez,Home Office,Seattle,Washington,United States,REG-WEST,Gold
+CUST-0446,Sarah Martinez,Corporate,Houston,Texas,United States,REG-CENT,Silver
+CUST-0447,Betty Clark,Home Office,Jacksonville,Florida,United States,REG-SOUT,Gold
+CUST-0448,Charles Johnson,Home Office,San Jose,California,United States,REG-WEST,Bronze
+CUST-0449,Donald Lee,Corporate,Dallas,Texas,United States,REG-CENT,Bronze
+CUST-0450,Andrew Rodriguez,Corporate,Seattle,Washington,United States,REG-WEST,Bronze
+CUST-0451,Michelle White,Consumer,Denver,Colorado,United States,REG-WEST,Bronze
+CUST-0452,Kimberly Davis,Consumer,London,Greater London,United Kingdom,REG-EMEA,Bronze
+CUST-0453,Nancy Thompson,Consumer,San Francisco,California,United States,REG-WEST,Gold
+CUST-0454,James Moore,Consumer,Philadelphia,Pennsylvania,United States,REG-EAST,Platinum
+CUST-0455,Steven Thomas,Consumer,London,Greater London,United Kingdom,REG-EMEA,Platinum
+CUST-0456,Daniel Martinez,Consumer,London,Greater London,United Kingdom,REG-EMEA,Gold
+CUST-0457,Joshua Davis,Corporate,Seattle,Washington,United States,REG-WEST,Gold
+CUST-0458,Robert Robinson,Consumer,Philadelphia,Pennsylvania,United States,REG-EAST,Gold
+CUST-0459,Robert Clark,Corporate,Fort Worth,Texas,United States,REG-CENT,Bronze
+CUST-0460,Charles Lewis,Consumer,Los Angeles,California,United States,REG-WEST,Silver
+CUST-0461,Michael Robinson,Consumer,Austin,Texas,United States,REG-CENT,Platinum
+CUST-0462,Andrew Taylor,Home Office,San Francisco,California,United States,REG-WEST,Bronze
+CUST-0463,Paul Anderson,Consumer,Dallas,Texas,United States,REG-CENT,Bronze
+CUST-0464,David White,Corporate,Charlotte,North Carolina,United States,REG-SOUT,Silver
+CUST-0465,James White,Corporate,Austin,Texas,United States,REG-CENT,Silver
+CUST-0466,Richard Garcia,Home Office,Boston,Massachusetts,United States,REG-EAST,Gold
+CUST-0467,Margaret Taylor,Consumer,Austin,Texas,United States,REG-CENT,Silver
+CUST-0468,Barbara Jones,Consumer,San Francisco,California,United States,REG-WEST,Bronze
+CUST-0469,Thomas Gonzalez,Consumer,San Diego,California,United States,REG-WEST,Bronze
+CUST-0470,Nancy Martinez,Corporate,Denver,Colorado,United States,REG-WEST,Bronze
+CUST-0471,Lisa Thompson,Consumer,San Diego,California,United States,REG-WEST,Bronze
+CUST-0472,Karen Garcia,Corporate,Fort Worth,Texas,United States,REG-CENT,Gold
+CUST-0473,Karen Thompson,Corporate,Houston,Texas,United States,REG-CENT,Platinum
+CUST-0474,Lisa Martin,Consumer,San Diego,California,United States,REG-WEST,Bronze
+CUST-0475,Elizabeth Anderson,Home Office,Sydney,New South Wales,Singapore,REG-APAC,Bronze
+CUST-0476,Emily Robinson,Corporate,San Francisco,California,United States,REG-WEST,Gold
+CUST-0477,Susan Harris,Corporate,San Diego,California,United States,REG-WEST,Silver
+CUST-0478,Jennifer Taylor,Corporate,Charlotte,North Carolina,United States,REG-SOUT,Bronze
+CUST-0479,Joshua Brown,Home Office,Los Angeles,California,United States,REG-WEST,Gold
+CUST-0480,Richard Jackson,Consumer,Seattle,Washington,United States,REG-WEST,Bronze
+CUST-0481,Kimberly Anderson,Corporate,Houston,Texas,United States,REG-CENT,Silver
+CUST-0482,Ashley Williams,Consumer,Indianapolis,Indiana,United States,REG-CENT,Bronze
+CUST-0483,William Taylor,Consumer,Columbus,Ohio,United States,REG-EAST,Bronze
+CUST-0484,Sandra Perez,Corporate,San Jose,California,United States,REG-WEST,Bronze
+CUST-0485,James White,Corporate,San Antonio,Texas,United States,REG-CENT,Bronze
+CUST-0486,Matthew Thompson,Corporate,Chicago,Illinois,United States,REG-CENT,Bronze
+CUST-0487,John Robinson,Consumer,San Francisco,California,United States,REG-WEST,Bronze
+CUST-0488,William Harris,Home Office,London,Greater London,United Kingdom,REG-EMEA,Silver
+CUST-0489,Mark Lopez,Consumer,Fort Worth,Texas,United States,REG-CENT,Gold
+CUST-0490,Anthony Gonzalez,Corporate,Chicago,Illinois,United States,REG-CENT,Silver
+CUST-0491,Andrew Jones,Home Office,London,Greater London,United Kingdom,REG-EMEA,Bronze
+CUST-0492,Andrew Gonzalez,Consumer,Indianapolis,Indiana,United States,REG-CENT,Platinum
+CUST-0493,James Harris,Home Office,New York City,New York,United States,REG-EAST,Silver
+CUST-0494,Andrew Wilson,Consumer,Seattle,Washington,United States,REG-WEST,Bronze
+CUST-0495,Sandra Lopez,Consumer,Phoenix,Arizona,United States,REG-WEST,Platinum
+CUST-0496,Linda Johnson,Consumer,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Gold
+CUST-0497,Mary Davis,Consumer,San Antonio,Texas,United States,REG-CENT,Silver
+CUST-0498,Donald Martin,Corporate,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Bronze
+CUST-0499,Robert Gonzalez,Consumer,Charlotte,North Carolina,United States,REG-SOUT,Bronze
+CUST-0500,Patricia Jones,Home Office,Indianapolis,Indiana,United States,REG-CENT,Bronze
+CUST-0501,Joshua Hernandez,Corporate,Denver,Colorado,United States,REG-WEST,Silver
+CUST-0502,Daniel Davis,Home Office,San Jose,California,United States,REG-WEST,Platinum
+CUST-0503,Kimberly Davis,Consumer,Columbus,Ohio,United States,REG-EAST,Bronze
+CUST-0504,Donna Lewis,Home Office,Sydney,New South Wales,Singapore,REG-APAC,Silver
+CUST-0505,Margaret Moore,Consumer,San Francisco,California,United States,REG-WEST,Bronze
+CUST-0506,Anthony Sanchez,Consumer,Indianapolis,Indiana,United States,REG-CENT,Bronze
+CUST-0507,Elizabeth Martinez,Consumer,Fort Worth,Texas,United States,REG-CENT,Silver
+CUST-0508,Jessica Ramirez,Consumer,San Diego,California,United States,REG-WEST,Silver
+CUST-0509,Sandra Robinson,Corporate,Los Angeles,California,United States,REG-WEST,Platinum
+CUST-0510,Emily Taylor,Consumer,Phoenix,Arizona,United States,REG-WEST,Bronze
+CUST-0511,Nancy Lee,Home Office,Chicago,Illinois,United States,REG-CENT,Gold
+CUST-0512,Jennifer Moore,Home Office,Sydney,New South Wales,Singapore,REG-APAC,Bronze
+CUST-0513,Anthony Perez,Corporate,Boston,Massachusetts,United States,REG-EAST,Gold
+CUST-0514,Richard Sanchez,Corporate,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Silver
+CUST-0515,Susan Thomas,Home Office,San Antonio,Texas,United States,REG-CENT,Bronze
+CUST-0516,James Miller,Home Office,San Antonio,Texas,United States,REG-CENT,Bronze
+CUST-0517,Steven Robinson,Corporate,San Diego,California,United States,REG-WEST,Silver
+CUST-0518,Betty Robinson,Corporate,San Diego,California,United States,REG-WEST,Gold
+CUST-0519,Anthony Anderson,Corporate,Seattle,Washington,United States,REG-WEST,Bronze
+CUST-0520,Lisa Taylor,Consumer,San Francisco,California,United States,REG-WEST,Gold
+CUST-0521,Steven Harris,Home Office,Austin,Texas,United States,REG-CENT,Bronze
+CUST-0522,Mark Johnson,Home Office,Denver,Colorado,United States,REG-WEST,Silver
+CUST-0523,Mary Rodriguez,Home Office,Seattle,Washington,United States,REG-WEST,Silver
+CUST-0524,Mark Martinez,Consumer,Phoenix,Arizona,United States,REG-WEST,Bronze
+CUST-0525,Joshua Clark,Consumer,San Diego,California,United States,REG-WEST,Silver
+CUST-0526,Nancy Rodriguez,Home Office,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Platinum
+CUST-0527,Ashley Anderson,Corporate,Philadelphia,Pennsylvania,United States,REG-EAST,Bronze
+CUST-0528,William White,Consumer,Seattle,Washington,United States,REG-WEST,Gold
+CUST-0529,Andrew Lee,Corporate,Los Angeles,California,United States,REG-WEST,Gold
+CUST-0530,John Clark,Consumer,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Bronze
+CUST-0531,William Clark,Consumer,London,Greater London,United Kingdom,REG-EMEA,Silver
+CUST-0532,James Miller,Consumer,Indianapolis,Indiana,United States,REG-CENT,Bronze
+CUST-0533,Michelle Robinson,Corporate,San Francisco,California,United States,REG-WEST,Bronze
+CUST-0534,Andrew Moore,Consumer,Columbus,Ohio,United States,REG-EAST,Silver
+CUST-0535,Sarah Moore,Consumer,San Jose,California,United States,REG-WEST,Gold
+CUST-0536,Margaret Sanchez,Consumer,Philadelphia,Pennsylvania,United States,REG-EAST,Bronze
+CUST-0537,Elizabeth Davis,Corporate,San Antonio,Texas,United States,REG-CENT,Bronze
+CUST-0538,Matthew Rodriguez,Consumer,Fort Worth,Texas,United States,REG-CENT,Platinum
+CUST-0539,Sandra Jackson,Home Office,San Diego,California,United States,REG-WEST,Bronze
+CUST-0540,Jennifer Lee,Corporate,London,Greater London,United Kingdom,REG-EMEA,Bronze
+CUST-0541,Anthony Gonzalez,Consumer,Seattle,Washington,United States,REG-WEST,Silver
+CUST-0542,David Williams,Home Office,San Francisco,California,United States,REG-WEST,Silver
+CUST-0543,Nancy Jackson,Home Office,Houston,Texas,United States,REG-CENT,Gold
+CUST-0544,Joseph Miller,Home Office,Singapore City,Central Region,Singapore,REG-APAC,Silver
+CUST-0545,Robert Robinson,Corporate,Chicago,Illinois,United States,REG-CENT,Bronze
+CUST-0546,Andrew Jackson,Consumer,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Gold
+CUST-0547,Daniel Smith,Corporate,San Antonio,Texas,United States,REG-CENT,Gold
+CUST-0548,Betty Robinson,Consumer,Chicago,Illinois,United States,REG-CENT,Silver
+CUST-0549,Joshua Clark,Corporate,Fort Worth,Texas,United States,REG-CENT,Silver
+CUST-0550,Anthony Harris,Consumer,Sydney,New South Wales,Singapore,REG-APAC,Platinum
+CUST-0551,Jennifer Taylor,Home Office,Sydney,New South Wales,Singapore,REG-APAC,Bronze
+CUST-0552,Margaret Davis,Consumer,Chicago,Illinois,United States,REG-CENT,Gold
+CUST-0553,Kenneth Gonzalez,Consumer,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Silver
+CUST-0554,Donald Thomas,Consumer,San Diego,California,United States,REG-WEST,Platinum
+CUST-0555,Margaret Garcia,Corporate,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Bronze
+CUST-0556,Michelle Martinez,Corporate,San Diego,California,United States,REG-WEST,Bronze
+CUST-0557,Elizabeth Gonzalez,Corporate,Singapore City,Central Region,Singapore,REG-APAC,Bronze
+CUST-0558,Anthony Hernandez,Consumer,Jacksonville,Florida,United States,REG-SOUT,Bronze
+CUST-0559,Karen Anderson,Corporate,Jacksonville,Florida,United States,REG-SOUT,Bronze
+CUST-0560,Jennifer Garcia,Consumer,Columbus,Ohio,United States,REG-EAST,Silver
+CUST-0561,Mark Brown,Consumer,New York City,New York,United States,REG-EAST,Silver
+CUST-0562,Kenneth Martin,Home Office,Austin,Texas,United States,REG-CENT,Bronze
+CUST-0563,Mark Gonzalez,Consumer,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Gold
+CUST-0564,Jessica Jackson,Consumer,Indianapolis,Indiana,United States,REG-CENT,Bronze
+CUST-0565,William Rodriguez,Consumer,San Jose,California,United States,REG-WEST,Bronze
+CUST-0566,David Wilson,Consumer,Dallas,Texas,United States,REG-CENT,Silver
+CUST-0567,John Lopez,Home Office,Dallas,Texas,United States,REG-CENT,Silver
+CUST-0568,Ashley Martin,Consumer,Boston,Massachusetts,United States,REG-EAST,Bronze
+CUST-0569,Karen Smith,Consumer,Fort Worth,Texas,United States,REG-CENT,Silver
+CUST-0570,Nancy Anderson,Consumer,Austin,Texas,United States,REG-CENT,Gold
+CUST-0571,Kenneth Jones,Consumer,San Jose,California,United States,REG-WEST,Platinum
+CUST-0572,Richard Thomas,Consumer,Austin,Texas,United States,REG-CENT,Bronze
+CUST-0573,Daniel Martinez,Corporate,Sydney,New South Wales,Singapore,REG-APAC,Silver
+CUST-0574,Joshua Sanchez,Consumer,San Diego,California,United States,REG-WEST,Bronze
+CUST-0575,Betty Lopez,Home Office,Houston,Texas,United States,REG-CENT,Bronze
+CUST-0576,Andrew Garcia,Corporate,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Bronze
+CUST-0577,Sandra Thompson,Consumer,San Antonio,Texas,United States,REG-CENT,Bronze
+CUST-0578,John Clark,Corporate,Columbus,Ohio,United States,REG-EAST,Bronze
+CUST-0579,Karen Davis,Corporate,Dallas,Texas,United States,REG-CENT,Silver
+CUST-0580,Anthony Williams,Home Office,Charlotte,North Carolina,United States,REG-SOUT,Silver
+CUST-0581,Betty Moore,Home Office,Indianapolis,Indiana,United States,REG-CENT,Gold
+CUST-0582,Mark Moore,Corporate,Los Angeles,California,United States,REG-WEST,Bronze
+CUST-0583,Andrew Martin,Home Office,London,Greater London,United Kingdom,REG-EMEA,Bronze
+CUST-0584,Jessica Perez,Consumer,Manchester,Greater Manchester,United Kingdom,REG-EMEA,Silver
+CUST-0585,Robert Jackson,Corporate,London,Greater London,United Kingdom,REG-EMEA,Bronze
+CUST-0586,Nancy Sanchez,Consumer,Columbus,Ohio,United States,REG-EAST,Bronze
+CUST-0587,Joseph Taylor,Consumer,Sydney,New South Wales,Singapore,REG-APAC,Silver
+CUST-0588,Joshua Davis,Consumer,Charlotte,North Carolina,United States,REG-SOUT,Silver
+CUST-0589,Donna Thompson,Consumer,Indianapolis,Indiana,United States,REG-CENT,Platinum
+CUST-0590,Steven Brown,Consumer,San Jose,California,United States,REG-WEST,Platinum
+CUST-0591,Linda Clark,Consumer,Sydney,New South Wales,Singapore,REG-APAC,Bronze
+CUST-0592,Sandra Sanchez,Corporate,San Antonio,Texas,United States,REG-CENT,Bronze
+CUST-0593,Michael Anderson,Corporate,Sydney,New South Wales,Singapore,REG-APAC,Bronze
+CUST-0594,Karen Johnson,Consumer,Singapore City,Central Region,Singapore,REG-APAC,Gold
+CUST-0595,Michael Perez,Home Office,Philadelphia,Pennsylvania,United States,REG-EAST,Silver
+CUST-0596,Kimberly Garcia,Consumer,Seattle,Washington,United States,REG-WEST,Silver
+CUST-0597,Sandra Davis,Corporate,Fort Worth,Texas,United States,REG-CENT,Bronze
+CUST-0598,Margaret Gonzalez,Corporate,New York City,New York,United States,REG-EAST,Gold
+CUST-0599,Donald Jackson,Consumer,Columbus,Ohio,United States,REG-EAST,Silver
+CUST-0600,Susan Rodriguez,Corporate,Sao Paulo,Sao Paulo,Brazil,REG-LATAM,Gold

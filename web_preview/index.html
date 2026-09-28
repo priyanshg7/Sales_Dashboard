@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enterprise Sales Analytics - Power BI Interactive Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+  <div class="app-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-logo">
+          <i class="fa-solid fa-chart-pie"></i>
+        </div>
+        <div class="brand-text">
+          <h2>SalesPulse <span class="badge-pro">BI</span></h2>
+          <p>Enterprise Analytics</p>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <div class="nav-section-title">PAGES</div>
+        <button class="nav-item active" data-page="page-overview">
+          <i class="fa-solid fa-house-chimney"></i>
+          <span>Executive Overview</span>
+        </button>
+        <button class="nav-item" data-page="page-products">
+          <i class="fa-solid fa-cubes-stacked"></i>
+          <span>Product Performance</span>
+        </button>
+        <button class="nav-item" data-page="page-regional">
+          <i class="fa-solid fa-earth-americas"></i>
+          <span>Regional & Geo</span>
+        </button>
+        <button class="nav-item" data-page="page-customers">
+          <i class="fa-solid fa-users-viewfinder"></i>
+          <span>Customer Insights</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="theme-switch-wrapper">
+          <span><i class="fa-solid fa-moon"></i> Dark Mode</span>
+          <label class="switch">
+            <input type="checkbox" id="themeToggle" checked>
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="powerbi-badge">
+          <i class="fa-solid fa-bolt"></i> Power BI Compatible
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Top Bar: Title & Global Slicers -->
+      <header class="topbar">
+        <div class="topbar-title">
+          <h1 id="pageHeading">Executive Overview Dashboard</h1>
+          <p id="pageSubHeading">Real-time transactional sales, profit velocity, and regional trends</p>
+        </div>
+
+        <div class="filters-bar">
+          <div class="filter-group">
+            <label><i class="fa-regular fa-calendar"></i> Year</label>
+            <select id="filterYear">
+              <option value="All">All Years (2023-2025)</option>
+              <option value="2025">2025</option>
+              <option value="2024">2024</option>
+              <option value="2023">2023</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label><i class="fa-solid fa-location-dot"></i> Region</label>
+            <select id="filterRegion">
+              <option value="All">All Regions</option>
+              <option value="East">East</option>
+              <option value="West">West</option>
+              <option value="Central">Central</option>
+              <option value="South">South</option>
+              <option value="EMEA">EMEA</option>
+              <option value="APAC">APAC</option>
+              <option value="LATAM">LATAM</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label><i class="fa-solid fa-tags"></i> Category</label>
+            <select id="filterCategory">
+              <option value="All">All Categories</option>
+              <option value="Technology">Technology</option>
+              <option value="Furniture">Furniture</option>
+              <option value="Office Supplies">Office Supplies</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label><i class="fa-solid fa-building-user"></i> Segment</label>
+            <select id="filterSegment">
+              <option value="All">All Segments</option>
+              <option value="Consumer">Consumer</option>
+              <option value="Corporate">Corporate</option>
+              <option value="Home Office">Home Office</option>
+            </select>
+          </div>
+
+          <button id="resetFilters" class="btn-reset" title="Reset All Filters">
+            <i class="fa-solid fa-rotate-left"></i>
+          </button>
+        </div>
+      </header>
+
+      <!-- KPI Summary Ribbon (Visible across pages with dynamic contextual updates) -->
+      <section class="kpi-ribbon">
+        <div class="kpi-card">
+          <div class="kpi-icon icon-revenue"><i class="fa-solid fa-dollar-sign"></i></div>
+          <div class="kpi-content">
+            <span class="kpi-label">Total Revenue</span>
+            <div class="kpi-value" id="kpiSales">$0.00</div>
+            <div class="kpi-delta positive" id="kpiSalesYoY">
+              <i class="fa-solid fa-arrow-trend-up"></i> +14.2% vs PY
+            </div>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon icon-profit"><i class="fa-solid fa-chart-line"></i></div>
+          <div class="kpi-content">
+            <span class="kpi-label">Net Profit</span>
+            <div class="kpi-value" id="kpiProfit">$0.00</div>
+            <div class="kpi-delta positive" id="kpiProfitMargin">
+              <i class="fa-solid fa-percent"></i> 30.6% Margin
+            </div>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon icon-orders"><i class="fa-solid fa-receipt"></i></div>
+          <div class="kpi-content">
+            <span class="kpi-label">Total Orders</span>
+            <div class="kpi-value" id="kpiOrders">0</div>
+            <div class="kpi-delta neutral" id="kpiUnits">
+              <i class="fa-solid fa-box-open"></i> 0 Units Sold
+            </div>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon icon-aov"><i class="fa-solid fa-cart-shopping"></i></div>
+          <div class="kpi-content">
+            <span class="kpi-label">Avg Order Value (AOV)</span>
+            <div class="kpi-value" id="kpiAov">$0.00</div>
+            <div class="kpi-delta neutral" id="kpiCustCount">
+              <i class="fa-solid fa-user-check"></i> 0 Customers
+            </div>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon icon-sla"><i class="fa-solid fa-truck-fast"></i></div>
+          <div class="kpi-content">
+            <span class="kpi-label">Avg Shipping SLA</span>
+            <div class="kpi-value" id="kpiShipping">0.0 Days</div>
+            <div class="kpi-delta positive" id="kpiReturnRate">
+              <i class="fa-solid fa-arrow-rotate-left"></i> 2.8% Returns
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Dynamic Page Container -->
+      <div class="page-container">
+
+        <!-- ================= PAGE 1: EXECUTIVE OVERVIEW ================= -->
+        <section id="page-overview" class="page-view active">
+          <div class="charts-grid-2-1">
+            <!-- Monthly Revenue & Profit Trend -->
+            <div class="card visual-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Monthly Revenue & Net Profit Trend</h3>
+                  <p class="card-subtitle">Monthly sales volume compared against previous year targets</p>
+                </div>
+                <div class="card-action">
+                  <span class="tag-pill"><i class="fa-solid fa-circle text-primary"></i> Sales</span>
+                  <span class="tag-pill"><i class="fa-solid fa-circle text-success"></i> Profit</span>
+                </div>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="chartMonthlyTrend"></canvas>
+              </div>
+            </div>
+
+            <!-- Category Contribution Donut -->
+            <div class="card visual-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Revenue by Category</h3>
+                  <p class="card-subtitle">Product category distribution</p>
+                </div>
+              </div>
+              <div class="chart-wrapper donut-wrapper">
+                <canvas id="chartCategoryDonut"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <div class="charts-grid-2">
+            <!-- Top 5 Subcategories -->
+            <div class="card visual-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Top 5 Sub-Categories by Revenue</h3>
+                  <p class="card-subtitle">High-impact merchandise departments</p>
+                </div>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="chartTopSubcats"></canvas>
+              </div>
+            </div>
+
+            <!-- Sales Channel & Fulfillment -->
+            <div class="card visual-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Sales Channel Breakdown</h3>
+                  <p class="card-subtitle">Enterprise, online, retail & reseller volume</p>
+                </div>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="chartChannels"></canvas>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= PAGE 2: PRODUCT PERFORMANCE ================= -->
+        <section id="page-products" class="page-view">
+          <div class="charts-grid-2">
+            <!-- Scatter Margin vs Sales -->
+            <div class="card visual-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Product Margin vs Revenue Matrix</h3>
+                  <p class="card-subtitle">Quadrant analysis identifying high-margin growth drivers</p>
+                </div>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="chartProductScatter"></canvas>
+              </div>
+            </div>
+
+            <!-- Subcategory Profit Margin % -->
+            <div class="card visual-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Profit Margin % by Sub-Category</h3>
+                  <p class="card-subtitle">Operational margin efficiency comparison</p>
+                </div>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="chartSubcatMargin"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product SKU Leaderboard Table -->
+          <div class="card visual-card table-card">
+            <div class="card-header">
+              <div>
+                <h3 class="card-title">Product Catalog Financial Performance</h3>
+                <p class="card-subtitle">Granular unit sales, discounts, revenue, and margin health</p>
+              </div>
+              <div class="table-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="productSearch" placeholder="Search product name or category...">
+              </div>
+            </div>
+            <div class="table-container">
+              <table class="data-table" id="productTable">
+                <thead>
+                  <tr>
+                    <th>Product Name</th>
+                    <th>Category</th>
+                    <th>Sub-Category</th>
+                    <th class="text-right">Units Sold</th>
+                    <th class="text-right">Unit Price</th>
+                    <th class="text-right">Total Revenue</th>
+                    <th class="text-right">Total Profit</th>
+                    <th class="text-right">Margin %</th>
+                  </tr>
+                </thead>
+                <tbody id="productTableBody">
+                  <!-- Populated via JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= PAGE 3: REGIONAL TRENDS ================= -->
+        <section id="page-regional" class="page-view">
+          <div class="charts-grid-2">
+            <!-- Regional Revenue Comparison -->
+            <div class="card visual-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Sales Revenue by Territory</h3>
+                  <p class="card-subtitle">Regional performance and regional manager assignment</p>
+                </div>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="chartRegionalSales"></canvas>
+              </div>
+            </div>
+
+            <!-- Shipping Mode SLA Distribution -->
+            <div class="card visual-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Order Fulfillment by Shipping Class</h3>
+                  <p class="card-subtitle">Volume distribution and logistics speed</p>
+                </div>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="chartShippingModes"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- Regional Manager Benchmarking Cards -->
+          <div class="manager-grid" id="managerCardsContainer">
+            <!-- Dynamic Manager Cards -->
+          </div>
+        </section>
+
+        <!-- ================= PAGE 4: CUSTOMER INSIGHTS ================= -->
+        <section id="page-customers" class="page-view">
+          <div class="charts-grid-2">
+            <!-- Segment Revenue & Margin -->
+            <div class="card visual-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Revenue & Profit by Customer Segment</h3>
+                  <p class="card-subtitle">Consumer vs Corporate vs Home Office</p>
+                </div>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="chartSegmentBreakdown"></canvas>
+              </div>
+            </div>
+
+            <!-- Customer Loyalty Tier Breakdown -->
+            <div class="card visual-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Customer Tier Revenue Contribution</h3>
+                  <p class="card-subtitle">Platinum, Gold, Silver & Bronze distribution</p>
+                </div>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="chartTierDonut"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- Top Accounts Table -->
+          <div class="card visual-card table-card">
+            <div class="card-header">
+              <div>
+                <h3 class="card-title">Top 15 High-Value Customer Accounts</h3>
+                <p class="card-subtitle">Highest lifetime transaction volume and profit contribution</p>
+              </div>
+            </div>
+            <div class="table-container">
+              <table class="data-table" id="customerTable">
+                <thead>
+                  <tr>
+                    <th>Customer Name</th>
+                    <th>Segment</th>
+                    <th>Tier</th>
+                    <th>City / State</th>
+                    <th>Region</th>
+                    <th class="text-right">Orders</th>
+                    <th class="text-right">Total Spent</th>
+                    <th class="text-right">Profit Contribution</th>
+                    <th class="text-right">AOV</th>
+                  </tr>
+                </thead>
+                <tbody id="customerTableBody">
+                  <!-- Populated via JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
