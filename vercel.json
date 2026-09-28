@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/web_preview/index.html" },
+    { "source": "/styles.css", "destination": "/web_preview/styles.css" },
+    { "source": "/app.js", "destination": "/web_preview/app.js" },
+    { "source": "/sales_data.json", "destination": "/web_preview/sales_data.json" },
+    { "source": "/(.*)", "destination": "/web_preview/$1" }
+  ]
+}
